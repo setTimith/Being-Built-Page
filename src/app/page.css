@@ -1,0 +1,65 @@
+
+      html {
+        font-size: 25px;
+      }
+
+      @media (max-width: 900px) {
+        html {
+          font-size: 18px;
+        }
+      }
+
+      @media (max-width: 400px) {
+        html {
+          font-size: 12px;
+        }
+      }
+      body {
+        padding: 0;
+        margin: 0;
+        font-family: "Montserrat", sans-serif;
+      }
+
+      .mainContainer {
+        background-image: url('/placeholderpage/public/julien-moreau-688Fna1pwOQ-unsplash.jpg');
+        background-size: cover;
+        height: 100vh;
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        background-position: center;
+      }
+
+      .shader {
+        background-color: black;
+        opacity: 30%;
+        height: 100vh;
+        width: 100vw;
+        z-index: 2;
+        position: absolute;
+      }
+
+      .contentDiv {
+        display: flex;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        z-index: 3;
+        height: 60vh;
+        width: 50vw;
+        flex-direction: column;
+        text-align: center;
+        text-transform: uppercase;
+        border: 5px solid white;
+        gap: 20px;
+
+        @media (max-width: 1200px) {
+          width: 80vw;
+        }
+      }
+
+      .contentDiv p {
+        font-size: 1.2rem;
+        margin: 0;
+      }
