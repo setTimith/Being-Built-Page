@@ -13,7 +13,7 @@ export default function Home() {
       <div className="contentDiv">
         <h1>Company Title </h1>
         <p>Currently being Built out</p>
-        <p>Currently being Built out</p>
+        <p>Contact Info</p>
         <p>Currently being Built out</p>
       </div>
     </div>
