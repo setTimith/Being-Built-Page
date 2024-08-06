@@ -47,7 +47,6 @@
       .contentDiv {
         display: flex;
         color: black;
-        /* align-items: left; */
         justify-content: flex-start;
         z-index: 3;
         /* height: 60vh;
