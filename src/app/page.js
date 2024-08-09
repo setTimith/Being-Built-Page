@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import "./page.css";
 import bgImg1 from "../../public/bgimg1.jpg";
 import bgImg2 from "../../public/bgimg2.jpg";
-import bgImg3 from "../../public/bgimg3.jpeg";
+import bgImg3 from "../../public/bgimgNew.jpeg";
 import bgImg4 from "../../public/bgimg4.png";
 
 const images = [bgImg1, bgImg2, bgImg3, bgImg4];
