@@ -3,6 +3,13 @@
         font-size: 25px;
       }
 
+
+      @media (max-width: 1500px) {
+        html {
+          font-size: 20px;
+        }
+      }
+
       @media (max-width: 900px) {
         html {
           font-size: 18px;
@@ -29,9 +36,9 @@
         align-items: left;
         justify-content: left;
         background-position: center;
-        background-size: contain;
+        background-size: 45%;
         background-repeat: no-repeat;
-        background-color: #d3d3d3;
+        background-color: #ffffff;
         padding: 20px;
       }
 
@@ -53,6 +60,7 @@
         width: 50vw; */
         flex-direction: column;
         text-align: left;
+        padding-top: 5%;
 
         /* gap: 20px; */
 
@@ -64,15 +72,22 @@
       .contentDiv h1 {
         text-transform: uppercase;
         margin:0;
+        font-size: 1.2rem;
       }
 
       .contentDiv h2 {
         text-transform: uppercase;
         margin:0;
-        font-size: 1.2rem;
+        font-size: 1rem;
       }
 
       .contentDiv p {
         font-size: 0.8rem;
         margin: 0;
       }
+
+@media only screen and (max-width: 700px) {
+  .mainContainer {
+    background-size: 89%;
+  }
+}

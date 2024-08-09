@@ -2,9 +2,9 @@
 
 import { useEffect, useState } from "react";
 import "./page.css";
-import bgImg1 from "../../public/2021-10-26-23-28-39-539.jpg";
-import bgImg2 from "../../public/2021-10-26-23-30-09-348.jpg";
-import bgImg3 from "../../public/bgImg3.jpeg";
+import bgImg1 from "../../public/bgimg1.jpg";
+import bgImg2 from "../../public/bgimg2.jpg";
+import bgImg3 from "../../public/bgimg3.jpeg";
 import bgImg4 from "../../public/bgimg4.png";
 
 const images = [bgImg1, bgImg2, bgImg3, bgImg4];
@@ -41,10 +41,12 @@ export default function Home() {
     >
       {/* <div className="shader"></div> */}
       <div className="contentDiv">
-        <h1>Hicham BOU AKL & Maria-Thala AL ASWAD</h1>
+        <h1>
+          Hicham BOU AKL & <br /> Maria-Thala AL ASWAD
+        </h1>
         <h2>LES ARCHITECTES WORKSHOP</h2>
         <p>Paris / rue Lecourbe, 75015</p>
-        <p>Beyrouth / Rue Notre Dame de Saidanya, Moustaytbé</p>
+        <p>Beyrouth / rue N.D. de Saidnaya, Moustaytbé</p>
       </div>
     </div>
   );
